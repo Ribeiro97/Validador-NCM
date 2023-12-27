@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 10px;
+    background-image: linear-gradient(to left, blue, black);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#panel {
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 500px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.button {
+    padding: 3px;
+    cursor: pointer;
+}
+
+#ncmNotInCSV {
+    color: red;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    position: relative;
+}
+
+.table-container th::after, .table-container td::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+}
