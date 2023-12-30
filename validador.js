@@ -121,6 +121,4 @@ function displayValidationResult(validTableRows, invalidTableRows) {
             </table>
         </div>`;
 }
-
-// Adicionei este trecho para adicionar um evento de clique ao botão.
 document.getElementById('submitBtn').addEventListener('click', validateNCM);
